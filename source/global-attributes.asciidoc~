@@ -1,0 +1,15 @@
+:sectnums:
+:sectanchors:
+:sectlinks:
+:source-highlighter: coderay
+// to have beautiful icons for callouts
+// commented due to wrong icons for admonition blocks
+// :icons: font
+// :data-uri:
+
+// custom attributes
+:demosdir: demos
+:exosdir: exercices
+:sltionsdir: solutions
+// code dir is located at the root
+:codedir: ../../../code

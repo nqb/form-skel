@@ -1,0 +1,60 @@
+== TPX : but du TP
+
+Temps estimé : XX minutes
+
+// stagiaire
+ifdef::stagiaire[]
+=== Utilisation(s)
+
+Décrire les cas d'usage de ce TP
+
+Pourquoi faire ce tP ?
+
+=== Outil(s) à mettre en œuvre
+=== Tâche(s) à réaliser
+=== Résultat attendu
+
+// pour inclure du code source
+.filename
+[source,language]
+----
+----
+
+// pour inclure un fichier contenant du code source
+.filename
+[source,language]
+----
+include::myfile[]
+----
+
+=== Exercice(s) complémentaire(s) (optionnel)
+=== Documentation
+endif::[]
+
+// // formateur
+// Corrigé (titre déjà présent dans la solution pour plus de clarté)
+// x à remplacer par le numéro du TP
+ifdef::formateur[]
+include::{sltionsdir}/x_s_filename[]
+endif::[]
+
+== Quizz (à chaque demi-journée)
+
+// stagiaire
+Qu'avez-vous appris ?
+
+// formateur
+Ce qui a été appris pour chaque TP avec les sujets couverts
+
+
+== Modèle pour exercice 2
+
+Temps estimé : min
+
+Ce qui va être appris (Tâche)::
+Cas d'usage (Condition)::
+Outils et techniques à mettre en œuvre (Norme)::
+Tâche à réaliser::
+Exercice(s) complémentaire(s) (optionnel)::
+Résultat attendu (Performance)::
+

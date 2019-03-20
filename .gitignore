@@ -1,0 +1,7 @@
+*.retry
+*/master.html
+*/source/*.html
+*~
+\#*\#
+*.html
+.vagrant/

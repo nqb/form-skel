@@ -1,0 +1,56 @@
+= Organisation du dépôt
+
+.Répertoires :
+* formateur : document formateur
+* stagiaire : document stagiaire
+* source : source du document
+* codes : codes sources utilisés dans la formation
+* modeles : modèles de documents
+
+Pour modifier le contenu, il suffit de modifier les fichiers dans le répertoire `source/`
+
+Le document formateur est identique au document stagiaire mais il contient les corrigés.
+
+= Création d'un nouveau TP
+
+.Checkliste :
+* [ ] définir le numéro et le nom du TP
+** TP : numero_tp_nom_tp
+** Corrigé : numero_tp_s_nom_tp (s pour solutions)
+* [ ] créer le fichier préfixé avec le numéro du TP dans link:source/[] en se basant sur link:templates/exercice.asciidoc[]
+* [ ] créer le corrigé dans link:source/solutions[] en se basant sur link:templates/corrige.asciidoc[]
+* [ ] créer les codes dans link:code[]
+
+= Utilisation des codes
+
+Pour utiliser les codes depuis la machine virtuelle Vagrant livrée avec le projet :
+[source,bash]
+----
+$ vagrant up
+[..]
+# in the VM
+[vagrant@localhost ~]$ /codes/tp1/install-ansible-with-pipsi.sh
+----
+
+NOTE: Les codes doivent être exécutables dans le dépôt Git.
+
+= Revue des documents
+
+.Checkliste :
+* [ ] changer le prompt `PS1="$ \w "`
+* [ ] mettre à jour la version du logiciel dans link:source/global-attributes.asciidoc[global attributes]
+* [ ] vérifier tous les liens dans les sections Documentation
+* [ ] tester tous les codes (kitchen.yml)
+
+
+= Build
+
+== Pré-requis
+
+* `asciidoctor`
+* `ruby-coderay` pour la coloration syntaxique
+
+== Génération HTML
+
+`make`
+

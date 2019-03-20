@@ -1,0 +1,12 @@
+= Titre formation
+Nicolas Quiniou-Briand <nqb@azyx.fr>
+v1.0, DATE
+// this attributes need to be in preamble
+:toc:
+:toclevels: 1
+:homepage: https://gitlab.com/azyx/sib-tp/
+// use to **NOT** display solutions
+:stagiaire:
+
+// keep spaces between includes
+include::source/global-attributes.asciidoc[]

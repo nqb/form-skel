@@ -1,0 +1,19 @@
+= Titre formation
+Nicolas Quiniou-Briand <nqb@azyx.fr>
+v1.0, DATE
+// this attributes need to be in preamble
+:toc:
+:toclevels: 1
+:homepage: 
+// use to display solutions
+:formateur:
+
+// keep spaces between includes
+include::source/global-attributes.asciidoc[]
+
+include::source/1_presentation.asciidoc[]
+
+
+
+// at the end
+include::source/bibliographie.asciidoc[]
