@@ -13,7 +13,11 @@ include::source/global-attributes.asciidoc[]
 
 include::source/1_presentation.asciidoc[]
 
+include::source/installation.asciidoc[]
+
 
 
 // at the end
+include::source/faq.asciidoc[]
+
 include::source/bibliographie.asciidoc[]
