@@ -1,0 +1,6 @@
+== Foire aux questions
+
+[faq]
+Comment afficher l'aide de {logiciel} ?::
+  Simplement avec [command]`{logiciel} --help` !
+Quelle est la dernière version de {logiciel} ?:: Lien vers site du projet
