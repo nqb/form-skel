@@ -1,27 +1,91 @@
-= Organisation du dépôt
+== TODO
+
+* [ ] Tester Antora pour la mise à dispotion des documents
+* [ ] Mentionner l'endroit où récupérer les livrables directement la
+  documentation (`homepage`)
+
+== Organisation du dépôt
 
 .Répertoires :
-* formateur : document formateur
-* stagiaire : document stagiaire
-* source : source du document
-* codes : codes sources utilisés dans la formation
-* modeles : modèles de documents
+* link:formateur[] : document formateur
+* link:apprenant[] : document apprenant
+* link:source[] : source du document
+* link:codes[] : codes sources utilisés dans la formation
+* link:modeles[] : modèles de documents
 
-Pour modifier le contenu, il suffit de modifier les fichiers dans le répertoire `source/`
+Pour modifier le contenu, il suffit de modifier les fichiers dans le répertoire link:source[].
 
-Le document formateur est identique au document stagiaire mais il contient les corrigés.
+Le document formateur est identique au document apprenant mais il contient les corrigés.
 
-= Création d'un nouveau TP
+=== Cours et foire aux questions
+
+La rédaction d'un cours et d'une foire aux questions peuvent se faire directement dans le dossier link:source[].
+
+=== Environnement et travaux pratiques
+
+==== Environnement
+
+Les travaux pratiques doivent pouvoir s'exécuter dans un environnement reproductible.
+Cet environnement fait partie du dépôt et se trouve à la racine pour simplifier sa mise en place.
+
+Le formateur se sert de cet environnement pour préparer, revoir et faire
+évoluer la formation. Le répertoire link:codes[] est forcément monté pour le
+formateur. Pour les apprenants, ce n'est pas nécessaire.
+
+Idéalement, cet environnement est intégré à un système d'intégration continue pour tester l'ensemble des codes de façon automatique.
+
+==== Travaux pratiques
+
+Les travaux pratiques impliquent l'utilisation des répertoires
+link:formateur[] et link:apprenant[] pour afficher/masquer les corrigés des
+travaux.
+
+=== Livrables pour les apprenants
+
+L'accès au dépôt contenant le code source de la formation est toujours public.
+
+Le code source de la formation est géré comme un logiciel : il y a des versions avec un
+ChangeLog associé et des livrables. Ceci permet aux apprenants de récupérer en
+tout temps la dernière version d'une formation.
+
+Les livrables sont :
+* Cours
+* Foire aux questions
+* Travaux pratiques avec les corrigés
+* Environnement
+* Codes
+
+Les documents AsciiDoc doivent être accessibles aux formats suivants :
+* HTML
+* PDF
+* ePub
+
+L'environnement et les codes doivent être récupérables dans une archive.
+
+Tous ces liens doivent être mentionnés dans la documentation elle-même et dans
+ce document.
+
+
+== Conventions
+
+Les conventions pour la rédaction des documents sont inspirées des suivantes : https://redhat-documentation.github.io/asciidoc-markup-conventions/
+
+== Création d'un nouveau TP
 
 .Checkliste :
 * [ ] définir le numéro et le nom du TP
 ** TP : numero_tp_nom_tp
 ** Corrigé : numero_tp_s_nom_tp (s pour solutions)
-* [ ] créer le fichier préfixé avec le numéro du TP dans link:source/[] en se basant sur link:templates/exercice.asciidoc[]
-* [ ] créer le corrigé dans link:source/solutions[] en se basant sur link:templates/corrige.asciidoc[]
+* [ ] créer le fichier préfixé avec le numéro du TP dans link:source[] en se basant sur link:modeles/exercice.asciidoc[]
+* [ ] créer le corrigé dans link:source/solutions[] en se basant sur link:modeles/corrige.asciidoc[]
 * [ ] créer les codes dans link:code[]
 
-= Utilisation des codes
+== Utilisation des codes
+
+Les codes sources utilisés dans la formation se trouvent dans le répertoire link:codes[].
+Ils doivent être exécutables.
+
+=== Avec Vagrant
 
 Pour utiliser les codes depuis la machine virtuelle Vagrant livrée avec le projet :
 [source,bash]
@@ -32,9 +96,21 @@ $ vagrant up
 [vagrant@localhost ~]$ /codes/tp1/install-ansible-with-pipsi.sh
 ----
 
-NOTE: Les codes doivent être exécutables dans le dépôt Git.
 
-= Revue des documents
+=== Avec Docker
+
+Pour utiliser les codes directement dans un conteneur Docker :
+[source,bas]
+----
+$ docker container run --name form-skel --volume="${PWD}/codes":/codes -it debian bash
+[..]
+# in the container
+root@6cd5d887c4c8:/# /codes/tp1/install-ansible-with-pipsi.sh
+----
+
+NOTE: implique souvent d'avoir provisioné le conteneur au préalable.
+
+== Revue des documents
 
 .Checkliste :
 * [ ] changer le prompt `PS1="$ \w "`
@@ -43,14 +119,14 @@ NOTE: Les codes doivent être exécutables dans le dépôt Git.
 * [ ] tester tous les codes (kitchen.yml)
 
 
-= Build
+== Build
 
-== Pré-requis
+=== Pré-requis
 
 * `asciidoctor`
 * `ruby-coderay` pour la coloration syntaxique
 
-== Génération HTML
+=== Génération HTML
 
 `make`
 
