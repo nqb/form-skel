@@ -2,8 +2,8 @@
 
 Temps estimé : XX minutes
 
-// stagiaire
-ifdef::stagiaire[]
+// apprenant
+ifdef::apprenant[]
 === Utilisation(s)
 
 Décrire les cas d'usage de ce TP
@@ -40,7 +40,7 @@ endif::[]
 
 == Quizz (à chaque demi-journée)
 
-// stagiaire
+// apprenant
 Qu'avez-vous appris ?
 
 // formateur
