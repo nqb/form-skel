@@ -1,2 +1,36 @@
-== Présentation
+== Présentation {logiciel}
+
+=== Fiche d'identité
+
+Une carte mentale remplacera avantageusement cette liste barbante.
+
+Nom::
+{logiciel}
+Version utilisée pour cette formation::
+{version}
+Éditeur/Développeur du logiciel::
+{editeur}
+Date de création et maturité::
+1970
+Philosophie::
+Un pour tous, tous pour un. C'est un logiciel libre.
+Langage de programmation::
+AsciiDoc !
+Licence::
+GPL
+Fonction::
+À quoi sert ce logiciel ?
+Chiffres::
+4000 contributeurs
+Exemple d'utilisation::
+* Enseignement
+* Agriculture
+Modèle de développement::
+Rythme de sortie, dernière version lors de l'écriture : {latest}
+Écosystème::
+Plugins, modules, connecteurs, etc.
+Concurrents et alternatives::
+Les concurrents et les alternatives
+En quoi il se démarque::
+Il est écrit en AsciiDoc.
 
