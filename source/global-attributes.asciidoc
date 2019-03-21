@@ -8,6 +8,10 @@
 // :data-uri:
 
 // custom attributes
+:logiciel: nom_logiciel
+:version: 0.1
+:editeur: azyx
+:latest: 0.1.5
 :demosdir: demos
 :exosdir: exercices
 :sltionsdir: solutions
