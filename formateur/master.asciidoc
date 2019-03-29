@@ -20,6 +20,8 @@ include::source/installation.asciidoc[]
 
 
 // at the end
+include::source/glossaire.asciidoc[]
+
 include::source/faq.asciidoc[]
 
 include::source/bibliographie.asciidoc[]
