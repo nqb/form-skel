@@ -1,6 +1,6 @@
 = Titre formation
 Nicolas Quiniou-Briand <nqb@azyx.fr>
-v1.0, DATE
+v1.0, org-time-stamp
 // this attributes need to be in preamble
 :toc:
 :toclevels: 1
