@@ -1,0 +1,23 @@
+== Déroulé de la formation
+
+=== Licence
+
+link:https://creativecommons.org/licenses/by-sa/4.0/deed.fr[CC-BY-SA 4.0]
+
+=== Chapeau
+
+Texte qui valorise la formation
+
+=== Résumé de la formation
+
+Logiciel::
+Durée::
+Objectifs::
+Public::
+Pré-requis::
+Pédagogie::
+Mots-clés::
+
+=== Programme de la formation
+
+Utiliser des mots-clés fonctionnels et métiers.

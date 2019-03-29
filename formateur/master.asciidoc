@@ -11,6 +11,8 @@ v1.0, DATE
 // keep spaces between includes
 include::source/global-attributes.asciidoc[]
 
+include::source/0_deroule.asciidoc[]
+
 include::source/1_presentation.asciidoc[]
 
 include::source/installation.asciidoc[]
