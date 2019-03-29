@@ -1,8 +1,11 @@
 == TODO
 
 * [ ] Tester Antora pour la mise à dispotion des documents
+* [ ] S'inspirer de software carprentry
 * [ ] Mentionner l'endroit où récupérer les livrables directement la
   documentation (`homepage`)
+* [ ] Créer une page de contribution
+** [ ] Conventions AsciiDoc
 
 == Organisation du dépôt
 
