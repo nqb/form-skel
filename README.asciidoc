@@ -73,6 +73,17 @@ ce document.
 
 Les conventions pour la rédaction des documents sont inspirées des suivantes : https://redhat-documentation.github.io/asciidoc-markup-conventions/
 
+== Création d'une nouvelle formation
+
+[source,bash]
+----
+git clone https://github.com/nqb/form-skel.git form-name
+cd form-name
+
+# then write, learn, write, learn :-)
+----
+
+
 == Création d'un nouveau TP
 
 .Checkliste :
