@@ -1,4 +1,6 @@
 == Bibliographie
-[bibliographie]
+
+[bibliography]
+=== Références
 
 See https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#bibliography
