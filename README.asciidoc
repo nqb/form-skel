@@ -6,6 +6,7 @@
   documentation (`homepage`)
 * [ ] Créer une page de contribution
 ** [ ] Conventions AsciiDoc
+* [ ] Revoir utilisation de la template
 
 == Organisation du dépôt
 
@@ -81,6 +82,11 @@ git clone https://github.com/nqb/form-skel.git form-name
 cd form-name
 
 # then write, learn, write, learn :-)
+# 0. wipe README.asciidoc
+# 1. edit formateur/master.asciidoc
+# 2. edit source/global_attributes.asciidoc
+# 3. write source/1_presentation.mm
+# 4. write source/0_deroule.asciidoc
 ----
 
 
