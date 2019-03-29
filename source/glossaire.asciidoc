@@ -1,0 +1,6 @@
+== Glossaire
+
+[glossary]
+// you can refer to terme1 with <<terme1>> or <<terme1,Terme 1>>
+[[terme1]]terme1::
+[[terme2]]terme2::
