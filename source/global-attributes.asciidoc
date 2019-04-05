@@ -2,6 +2,8 @@
 :sectanchors:
 :sectlinks:
 :source-highlighter: coderay
+// add line number for source code
+:source-linenums-option:
 //:source-highlighter: prettify
 // to have beautiful icons for callouts
 // commented due to wrong icons for admonition blocks
