@@ -87,7 +87,8 @@ cd form-name
 # 1. edit formateur/master.asciidoc
 # 2. edit source/global_attributes.asciidoc
 # 3. write source/1_presentation.mm
-# 4. write source/0_deroule.asciidoc
+# 4. write source/brouillon.asciidoc
+# 5. write source/0_deroule.asciidoc
 ----
 
 

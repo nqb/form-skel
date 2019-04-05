@@ -6,7 +6,7 @@ link:https://creativecommons.org/licenses/by-sa/4.0/deed.fr[CC-BY-SA 4.0]
 
 === Chapeau
 
-Texte qui valorise la formation qui se base sur une version synthétique de la carte mentale
+Texte qui valorise la formation qui se base sur une version synthétique de link:1_presentation.mm[la carte mentale de présentation]
 
 === Résumé de la formation
 

@@ -1,0 +1,14 @@
+== Écriture
+
+=== Programme
+
+Aspects multiples et *public* multiples
+* Installation / Intégration en environnement varié
+* Exploitation
+* Développement
+* Sécurité
+* Migration
+
+Anticiper les besoins et les cas d'usages (simples et complexes).
+
+Savoir défendre les logiciels.
