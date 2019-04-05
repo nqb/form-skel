@@ -1,5 +1,6 @@
 == TODO
 
+* [ ] Section à remplacer par des tickets
 * [ ] Mise à jour LICENSE
 * [ ] Tester Antora pour la mise à dispotion des documents
 * [ ] S'inspirer de software carprentry
@@ -122,15 +123,15 @@ $ vagrant up
 === Avec Docker
 
 Pour utiliser les codes directement dans un conteneur Docker :
-[source,bas]
+[source,bash]
 ----
-$ docker container run --name form-skel --volume="${PWD}/codes":/codes -it debian bash
+$ docker container run --name $(basename ${PWD}) --volume="${PWD}/codes":/codes -it debian bash
 [..]
 # in the container
+# install dependencies and run:
 root@6cd5d887c4c8:/# /codes/tp1/install-ansible-with-pipsi.sh
 ----
 
-NOTE: implique souvent d'avoir provisioné le conteneur au préalable.
 
 == Revue des documents
 
@@ -152,3 +153,6 @@ NOTE: implique souvent d'avoir provisioné le conteneur au préalable.
 
 `make`
 
+== Usage
+
+Pour l'utilisation de ce dépôt, se référer au link:https://github.com/nqb/form-skel/blob/master/README.asciidoc[squelette de formation].
