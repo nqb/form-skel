@@ -1,5 +1,6 @@
 == TODO
 
+* [ ] Mise à jour LICENSE
 * [ ] Tester Antora pour la mise à dispotion des documents
 * [ ] S'inspirer de software carprentry
 * [ ] Mentionner l'endroit où récupérer les livrables directement la
