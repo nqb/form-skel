@@ -3,3 +3,7 @@
 === Installation dernière version stable
 
 === Installation version de développement
+
+== Mise à jour
+
+Comment ?
