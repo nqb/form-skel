@@ -1,13 +1,21 @@
 == Écriture
 
+=== Carte mentale
+
+Réalisation d'une carte mentale pour défricher le sujet dans un premier temps.
+
+Permet de stocker des liens très facilement et d'avoir des mots clés.
+
 === Programme
 
 Aspects multiples et *public* multiples
 * Installation / Intégration en environnement varié
 * Exploitation
 * Développement
+* Tests
 * Sécurité
 * Migration
+* Gestion de projets
 
 Anticiper les besoins et les cas d'usages (simples et complexes).
 
