@@ -1,4 +1,4 @@
-== Déroulé de la formation
+== Titre formation
 
 === Licence
 
@@ -7,6 +7,12 @@ link:https://creativecommons.org/licenses/by-sa/4.0/deed.fr[CC-BY-SA 4.0]
 === Chapeau
 
 Texte qui valorise la formation qui se base sur une version synthétique de link:source/1_presentation.mm[la carte mentale de présentation]
+
+Liens vers des URLS pertinentes :
+* URL1
+* URL2
+
+=== Intervenant
 
 === Résumé de la formation
 
@@ -21,3 +27,5 @@ Mots-clés::
 === Programme de la formation
 
 Utiliser des mots-clés fonctionnels et métiers.
+
+NOTE: mentionner l'environnement de formation et son côté reproductible.
