@@ -6,8 +6,6 @@
 * [ ] S'inspirer de software carprentry
 * [ ] Mentionner l'endroit où récupérer les livrables directement la
   documentation (`homepage`)
-* [ ] Créer une page de contribution
-** [ ] Conventions AsciiDoc
 * [ ] Revoir utilisation de la template
 
 == Organisation du dépôt
@@ -70,11 +68,6 @@ L'environnement et les codes doivent être récupérables dans une archive.
 
 Tous ces liens doivent être mentionnés dans la documentation elle-même et dans
 ce document.
-
-
-== Conventions
-
-Les conventions pour la rédaction des documents sont inspirées des suivantes : https://redhat-documentation.github.io/asciidoc-markup-conventions/
 
 == Création d'une nouvelle formation
 

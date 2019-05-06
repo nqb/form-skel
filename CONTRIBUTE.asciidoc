@@ -1,0 +1,14 @@
+== Contribution
+
+
+=== Général
+
+Les documents sont rédigés en français et dédiés à un public français. Les messages des commits sont donc en français.
+
+=== Documents Asciidoc
+
+Les conventions pour la rédaction des documents sont inspirées des suivantes : https://redhat-documentation.github.io/asciidoc-markup-conventions/
+
+
+
+
