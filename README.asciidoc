@@ -71,18 +71,18 @@ ce document.
 
 == Création d'une nouvelle formation
 
+. Créer un nouveau dépôt avec le nom `form-nom-logiciel` en important le code de `form-skel`
+. Cloner le dépôt
 [source,bash]
 ----
-git clone https://github.com/nqb/form-skel.git form-name
+git clone https://github.com/nqb/form-name.git
 cd form-name
 
 # then write, learn, write, learn :-)
 # 0. wipe README.asciidoc
 # 1. edit formateur/master.asciidoc
 # 2. edit source/global_attributes.asciidoc
-# 3. write source/1_presentation.mm
-# 4. write source/brouillon.asciidoc
-# 5. write source/0_deroule.asciidoc
+# 3. start with ebauche.mm
 ----
 
 
