@@ -1,4 +1,4 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Pr&#xe9;sentation LOGICIEL compl&#xe8;te" FOLDED="false" ID="ID_1114779739" CREATED="1553870231867" MODIFIED="1554442849047" STYLE="oval">
 <font SIZE="18"/>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="21" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="22" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Nom et site web" POSITION="right" ID="ID_496092243" CREATED="1553870233032" MODIFIED="1553871218207">
 <edge COLOR="#ff0000"/>
 </node>
@@ -119,6 +119,10 @@
 </node>
 <node TEXT="Concurents et alternatives" POSITION="right" ID="ID_1037863912" CREATED="1553870346546" MODIFIED="1553870351651">
 <edge COLOR="#00ff00"/>
+</node>
+<node TEXT="Adh&#xe9;rence" POSITION="right" ID="ID_872586248" CREATED="1575035181632" MODIFIED="1575035183212">
+<edge COLOR="#7c7c00"/>
+<node TEXT="Comment en sortir ?" ID="ID_402907760" CREATED="1575035188401" MODIFIED="1575035191120"/>
 </node>
 <node TEXT="En quoi il se d&#xe9;marque" POSITION="right" ID="ID_1945758315" CREATED="1553870352080" MODIFIED="1553870357517">
 <edge COLOR="#ff00ff"/>

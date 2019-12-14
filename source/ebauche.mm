@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="&#xc9;bauche formation" FOLDED="false" ID="ID_1097350300" CREATED="1555342666745" MODIFIED="1555343008121" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="0.909">
+<hook NAME="MapStyle" zoom="0.826">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -91,6 +91,7 @@
 <node TEXT="Liens" ID="ID_179546455" CREATED="1557118890488" MODIFIED="1557118891771"/>
 </node>
 </node>
+<node TEXT="Papier" ID="ID_110581114" CREATED="1559280259606" MODIFIED="1559280261323"/>
 </node>
 <node TEXT="Lire, lire, lire" ID="ID_513196545" CREATED="1555342736050" MODIFIED="1557118833586"/>
 <node TEXT="Couvrir tout le sujet" ID="ID_1250973285" CREATED="1555342783633" MODIFIED="1555342791543">
@@ -219,6 +220,7 @@
 </node>
 <node TEXT="2i2l" ID="ID_13432850" CREATED="1555344517887" MODIFIED="1555344521872"/>
 <node TEXT="R&#xe9;seau" ID="ID_1174034041" CREATED="1555344889362" MODIFIED="1555344891728"/>
+<node TEXT="Contributions" ID="ID_730495425" CREATED="1559715595260" MODIFIED="1559715603980"/>
 <node TEXT="Objectif" ID="ID_984325692" CREATED="1555344876510" MODIFIED="1555344878859">
 <node TEXT="Attirer l&apos;attention" ID="ID_1906121498" CREATED="1555344879094" MODIFIED="1555344884129"/>
 <node TEXT="Donner envie" ID="ID_17483178" CREATED="1555344884326" MODIFIED="1555344886130"/>

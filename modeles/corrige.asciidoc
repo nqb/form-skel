@@ -1,6 +1,6 @@
 === Corrigé
 
-// insertion de code depuis un fichier situé dans le dossier racine code/
+// insertion de code depuis un fichier situé dans le dossier racine codes/
 // mis en couleur
 // x à remplacer par le numéro du TP et file par le nom du programme
 // INCONVENIENT: pas de callouts
