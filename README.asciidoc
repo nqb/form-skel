@@ -107,7 +107,7 @@ Ils doivent être exécutables.
 Pour utiliser les codes depuis la machine virtuelle Vagrant livrée avec le projet :
 [source,bash]
 ----
-$ vagrant up
+$ VAGRANT_BOX=centos/8 vagrant up
 [..]
 # in the VM
 [vagrant@localhost ~]$ /codes/tp1/install-ansible-with-pipsi.sh
