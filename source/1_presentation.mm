@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="22" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="23" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Nom et site web" POSITION="right" ID="ID_496092243" CREATED="1553870233032" MODIFIED="1553871218207">
 <edge COLOR="#ff0000"/>
 </node>
@@ -126,6 +126,12 @@
 </node>
 <node TEXT="En quoi il se d&#xe9;marque" POSITION="right" ID="ID_1945758315" CREATED="1553870352080" MODIFIED="1553870357517">
 <edge COLOR="#ff00ff"/>
+</node>
+<node TEXT="Roadmap du logiciel" POSITION="right" ID="ID_1972761418" CREATED="1582749367797" MODIFIED="1582749375133">
+<edge COLOR="#ff0000"/>
+<node TEXT="Changement majeurs &#xe0; venir" ID="ID_415159711" CREATED="1582749375390" MODIFIED="1582749379828">
+<node TEXT="Prochaine version" ID="ID_363024146" CREATED="1582749385786" MODIFIED="1582749389912"/>
+</node>
 </node>
 <node TEXT="Chiffres" POSITION="left" ID="ID_1518740949" CREATED="1553870293850" MODIFIED="1553870295429">
 <edge COLOR="#007c7c"/>
